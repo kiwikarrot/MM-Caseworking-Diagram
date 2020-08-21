@@ -29,6 +29,11 @@
     height: 100px;
 }
 
+.trelloImg {
+    width: 375px;
+    margin-top: 10px;
+}
+
 .trello {
     width: 550px;
 }
@@ -96,7 +101,7 @@
 }
 
 .update {
-    width: 450px;
+    width: 900px;
 }
 
 .updateButton {
@@ -146,6 +151,10 @@
 .call img {
     width: 300px;
     margin-top: 10px;
+}
+
+a {
+    color: navy;
 }
 
 button {
