@@ -12,6 +12,7 @@
    <img class="arrow" src="./resources/images/downArrow.png"></img>
 
    <div class="trello box">
+       <img class="trelloImg" src="./resources/images/trello.png"></img>
        <h2>Volunteers (you!) pick up cases from the trello board. Thoroughly review the information given on the case.<br>
         <button class="trelloButton" type="button" onclick=" window.open('https://trello.com/b/ASBqTKwm/mm-case-solving-community-board','_blank')">Trello Board</button></h2>
    </div>
@@ -32,19 +33,21 @@
         <h2>You search the internet based on information from the Trello board.</h2>
         <h3> Some resources caseworkers are using include:
             <ul class="sources">
-                <li><a href="https://www.whitepages.com/">White Pages</a> for a preliminary search</li>
-                <li><a href="https://pipl.com/">Pipl</a> for cross referencing, finding emails, verifying given phone numbers, or finding any organizations the loved one may be in.</li>
-                <li><a href="https://www.infospace.com/">Infospace</a> pulls up internet appearances</li>
-                <li><a href="https://www.facebook.com/">Facebook</a> for information and possible contacts</li>
-                <li><a href="https://www.ancestry.com/">Ancestry</a> for connections</li>
-                <li><a href="https://homemetry.com/">Hometry</a> gives you the option of contacting a loved ones neighbor if you can't reach them</li>
+                <li><a href="https://www.whitepages.com/" target="_blank">White Pages</a> for a preliminary search</li>
+                <li><a href="https://pipl.com/" target="_blank">Pipl</a> for cross referencing, finding emails, verifying given phone numbers, or finding any organizations the loved one may be in.</li>
+                <li><a href="https://www.infospace.com/" target="_blank">Infospace</a> pulls up internet appearances</li>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a> for information and possible contacts</li>
+                <li><a href="https://www.ancestry.com/" target="_blank">Ancestry</a> for connections</li>
+                <li><a href="https://homemetry.com/" target="_blank">Hometry</a> gives you the option of contacting a loved ones neighbor if you can't reach them</li>
+                <li><a href="http://www.fastpeoplesearch.com/" target="_blank">Fast People Search</a> is similar to White Pages</li>
+                <li><a href="http://www.beenverified.com" target="_blank">Been Verified</a> is also similar to White Pages</li>
             </ul>
             Tips:
             <ul class="tips">
                 <li>Take little pieces of information from different sites</li>
                 <li>Play around with the filters on search sites. Given information may be slightly off due to memory</li>
-                <li>It is better to having several possible contacts rather than one contact that you're sure about</li>
-                <li>Get creative! Past caseworkers have used prison system databases to find contacts</li>
+                <li>It is better to have several possible contacts rather than one contact that you're sure about</li>
+                <li>Get creative! Past caseworkers have used Linkedin, Instagram, Twitter, and prison system databases to find contacts</li>
             </ul>
         </h3>
    </div>
@@ -119,8 +122,37 @@
        <h2>Update your case every Monday with your results<br>
        <button class="updateButton" type="button" onclick="window.open('https://airtable.com/shrUreM7A0dGCanJz', '_blank')">Update</button><br>
         It's useful to have a saved folder with case information in the event people reach out for information in the future.</h2>
-   </div>
+        
+        <div class="results">
+            <table>
+                <tr>
+                    <td class="reconnect box">
+                        <strong>Connected with loved one and they want to reconnect:</strong><br>
+                        Pass on any pre-recorded message and reconnect them! <!-- mention that if you can, sit in on the call with them?-->
+                    </td>
+                    <td class="stuffing"></td>
+                    <td class="noconnect box">
+                        <strong>Connected with loved one but no desire to reconnect:</strong><br>
+                        Let the client know that their loved one does not wish to contact them at this time. 
+                    </td>
+                    <td class="stuffing"></td>
+                    <td class="closed box">
+                        <strong>Case closed:</strong><br>
+                        Let the client know you were unable to reach their loved one and will be closing their case for now.
+                    </td>
+                    <td class="stuffing"></td>
+                    <td class="deceased box">
+                        <strong>Loved one is deceased:</strong><br>
+                        Let the client know. It can be helpful to include the loved one's obituary and a way to seek a counseling service like <a href="https://www.211.org/">211.org</a>.
+                    </td>
+                </tr>
+            </table>
+       </div>
 
+    </div>
+
+    <img class="arrow" src="./resources/images/downArrow.png"></img>
+<!--
    <table>
        <tr>
            <td>
@@ -141,32 +173,6 @@
        </tr>
    </table>
 
-   <div class="results">
-        <table>
-            <tr>
-                <td class="reconnect box">
-                    <strong>Connected with loved one and they want to reconnect:</strong><br>
-                    Pass on any pre-recorded message and reconnect them! <!-- mention that if you can, sit in on the call with them?-->
-                </td>
-                <td class="stuffing"></td>
-                <td class="noconnect box">
-                    <strong>Connected with loved one but no desire to reconnect:</strong><br>
-                    Let the client know that their loved one does not wish to contact them at this time. 
-                </td>
-                <td class="stuffing"></td>
-                <td class="closed box">
-                    <strong>Case closed:</strong><br>
-                    Let the client know you were unable to reach their loved one and will be closing their case for now.
-                </td>
-                <td class="stuffing"></td>
-                <td class="deceased box">
-                    <strong>Loved one is deceased:</strong><br>
-                    Let the client know. It can be helpful to include the loved one's obituary and a way to seek a counseling service like <a href="https://www.211.org/">211.org</a>.
-                </td>
-            </tr>
-        </table>
-   </div>
-
    <table>
     <tr>
         <td>
@@ -186,7 +192,7 @@
         </td>
     </tr>
 </table>
-
+-->
    <div class="call box">
        <img src="./resources/images/conference.png"></img>
         <h2>Report any difficulties and results during the Wednesday 5:30pm case working conference calls!</h2>
